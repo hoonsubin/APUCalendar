@@ -1,0 +1,64 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APUCalendar.Android", "APUCalendar.Android\APUCalendar.Android.csproj", "{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APUCalendar.iOS", "APUCalendar.iOS\APUCalendar.iOS.csproj", "{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APUCalendar", "APUCalendar\APUCalendar.csproj", "{59BF3082-3617-4B7D-86A9-DAC47EFC7746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C07E786A-DAB6-4C56-B877-8EECEE4B2FE8}.Release|iPhone.Build.0 = Release|Any CPU
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Debug|iPhone.Build.0 = Debug|iPhone
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Release|iPhone.ActiveCfg = Release|iPhone
+		{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}.Release|iPhone.Build.0 = Release|iPhone
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{59BF3082-3617-4B7D-86A9-DAC47EFC7746}.Release|iPhone.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.StandardHeader = $2
+		version = 1.0.2
+	EndGlobalSection
+EndGlobal
