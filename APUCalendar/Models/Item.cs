@@ -58,7 +58,7 @@ namespace APUCalendar.Models
             }
         }
 
-        //check if the name of the event name and the starting date of the event is the same
+        //check if the name of the event and the starting date of the event is the same
         public bool Equals(Item other)
         {
             if (other is null)

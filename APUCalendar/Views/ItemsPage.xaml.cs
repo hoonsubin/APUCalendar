@@ -76,7 +76,8 @@ namespace APUCalendar.Views
             {
                 viewModel.ScrollToEvent = false;
                 //get the index of the event that is later than today
-                int todaysEvent = viewModel.Items.IndexOf(viewModel.Items
+                int todaysEvent = viewModel.Items
+                .IndexOf(viewModel.Items
                     .FirstOrDefault(i => DateTime.Compare(DateTime.ParseExact(i.StartDateTime, "yyyy/MM/dd", null), DateTime.Now) > 0));
 
                 //if the index is found, scroll to that item in the list

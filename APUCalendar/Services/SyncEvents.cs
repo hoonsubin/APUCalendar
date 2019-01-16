@@ -24,32 +24,21 @@ namespace APUCalendar.Services
             var dbItems = await App.Database.GetItemsAsync();
 
             //get the list that is in the academic events calendar, but not in the db
-            //the Item model interface will only compare the EventName and StartDateTime, and add to the list only if they are the same
             var newOnlineItems = ApuBot.AcademicEventList().Except(dbItems).ToList();
 
             //sync if there are new items
             if (newOnlineItems.Count > 0)
             {
-                var answer = await Application.Current.MainPage.DisplayAlert("Notice", "Found " + newOnlineItems.Count + " new events, wish to update list?", "Yes", "No");
+                var answer = await Application.Current.MainPage.DisplayAlert("Notice", "Found new events, wish to update list?", "Yes", "No");
                 Debug.WriteLine("[SyncEvents]Found new events");
-
+                //if there is no items, get items from the website
                 if (answer)
                 {
                     foreach (var i in newOnlineItems)
                     {
-                        //get the event that has the same date as the new one, but with a different event name
-                        var changedEvent = dbItems.FirstOrDefault( n => n.StartDateTime == i.StartDateTime && n.EventName != i.EventName);
-
-                        if (changedEvent != null)
-                        {
-                            //delete the old one
-                            await App.Database.DeleteItemAsync(changedEvent);
-                        }
-
-                        //add the new item to the database
                         await App.Database.SaveItemAsync(i);
                     }
-                    Debug.WriteLine("[SyncEvents]The event database has been updated");
+                    Debug.WriteLine("[SyncEvents]The database has been updated");
                 }
             }
         }
@@ -126,7 +115,6 @@ namespace APUCalendar.Services
                 var rawEventsOfThisCal = await CrossCalendars.Current
                         .GetEventsAsync(apuCalendar, DateTime.ParseExact(eventSource[0].StartDateTime, "yyyy/MM/dd", null)
                         , DateTime.ParseExact(eventSource[eventSource.Count - 1].EndDateTime, "yyyy/MM/dd", null).AddHours(23));
-
                 Debug.WriteLine("[ExportEvents]There are " + rawEventsOfThisCal.Count + " events in this calendar");
 
                 progress.PercentComplete = 50;
@@ -152,13 +140,6 @@ namespace APUCalendar.Services
                     //loop through all the events in the db, and add them to the system
                     foreach (var calItem in eventsToAdd)
                     {
-                        //get events in the calendar that has the same time with the new one, but as a different name (old)
-                        var oldEvent = rawEventsOfThisCal.FirstOrDefault(cur => cur.Start == DateTime.ParseExact(calItem.StartDateTime, "yyyy/MM/dd", null) && cur.Name != calItem.EventName);
-                        if (oldEvent != null)
-                        {
-                            //delete the old event in the calendar
-                            await CrossCalendars.Current.DeleteEventAsync(apuCalendar, oldEvent);
-                        }
                         //create a new event for the system calendar
                         var acaEvent = new CalendarEvent
                         {

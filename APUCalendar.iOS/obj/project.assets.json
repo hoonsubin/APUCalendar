@@ -2025,11 +2025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hoonkim/Google Drive/Projects/Apps/APUCalendar/APUCalendar.iOS/APUCalendar.iOS.csproj",
+      "projectUniqueName": "/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/APUCalendar.iOS.csproj",
       "projectName": "APUCalendar.iOS",
-      "projectPath": "/Users/hoonkim/Google Drive/Projects/Apps/APUCalendar/APUCalendar.iOS/APUCalendar.iOS.csproj",
+      "projectPath": "/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/APUCalendar.iOS.csproj",
       "packagesPath": "/Users/hoonkim/.nuget/packages/",
-      "outputPath": "/Users/hoonkim/Google Drive/Projects/Apps/APUCalendar/APUCalendar.iOS/obj",
+      "outputPath": "/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hoonkim/.config/NuGet/NuGet.Config"
@@ -2043,8 +2043,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/hoonkim/Google Drive/Projects/Apps/APUCalendar/APUCalendar/APUCalendar.csproj": {
-              "projectPath": "/Users/hoonkim/Google Drive/Projects/Apps/APUCalendar/APUCalendar/APUCalendar.csproj"
+            "/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar/APUCalendar.csproj": {
+              "projectPath": "/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar/APUCalendar.csproj"
             }
           }
         }
