@@ -1,4 +1,4 @@
-/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar.iOS/bin/iPhoneSimulator/Debug/APUCalendar.iOS.exe
+/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/bin/iPhoneSimulator/Debug/APUCalendar.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/System.dll
@@ -21,7 +21,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.12/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/hoonkim/.nuget/packages/xamarin.forms/3.4.0.1009999/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar/bin/Debug/netstandard2.0/APUCalendar.dll
+/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar/bin/Debug/netstandard2.0/APUCalendar.dll
 /Users/hoonkim/.nuget/packages/xamarin.forms/3.4.0.1009999/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/hoonkim/.nuget/packages/htmlagilitypack/1.8.11/lib/netstandard2.0/HtmlAgilityPack.dll
 /Users/hoonkim/.nuget/packages/sqlite-net-pcl/1.5.231/lib/netstandard1.1/SQLite-net.dll

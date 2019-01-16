@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="101" android:versionName="1.0.1" package="com.TeamSTEP.APU_Calendar">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="102" android:versionName="1.0.2" package="com.TeamSTEP.APU_Calendar">
 	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="27" />
 	<uses-permission android:name="android.permission.WRITE_CALENDAR" />
 	<uses-permission android:name="android.permission.INTERNET" />

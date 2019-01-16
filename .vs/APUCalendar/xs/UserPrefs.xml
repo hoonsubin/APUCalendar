@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="APUCalendar/Views/AboutPage.xaml">
     <Files>
       <File FileName="APUCalendar/Services/ApuBot.cs" Line="1" Column="1" />
-      <File FileName="APUCalendar/Views/AboutPage.xaml" Line="85" Column="15" />
+      <File FileName="APUCalendar/Views/AboutPage.xaml" Line="77" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

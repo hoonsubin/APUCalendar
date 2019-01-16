@@ -1,5 +1,5 @@
---cache=/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
---sim=/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/APUCalendar.iOS.app
+--cache=/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
+--sim=/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/APUCalendar.iOS.app
 --executable=APUCalendar.iOS
 --debug
 --nolink
@@ -9,9 +9,9 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
+--symbollist=/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
 --dsym=no
--r=/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar/bin/Debug/netstandard2.0/APUCalendar.dll
+-r=/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar/bin/Debug/netstandard2.0/APUCalendar.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
@@ -214,7 +214,7 @@
 -r=/Users/hoonkim/.nuget/packages/xamarin.forms/3.4.0.1009999/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/hoonkim/.nuget/packages/xamarin.forms/3.4.0.1009999/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/hoonkim/.nuget/packages/xamarin.forms/3.4.0.1009999/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar/bin/Debug/netstandard2.0/APUCalendar.dll
+-r=/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar/bin/Debug/netstandard2.0/APUCalendar.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/hoonkim/Documents/APUCalendarv1.0.1/APUCalendar.iOS/bin/iPhoneSimulator/Debug/APUCalendar.iOS.exe
+--root-assembly=/Users/hoonkim/Documents/Projects/Apps/APUCalendar/APUCalendar.iOS/bin/iPhoneSimulator/Debug/APUCalendar.iOS.exe
 
