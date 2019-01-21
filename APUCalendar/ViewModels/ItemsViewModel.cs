@@ -49,11 +49,14 @@ namespace APUCalendar.ViewModels
         //setup and group the given list into a grouped list
         void SetupGroup(ObservableCollection<Item> items)
         {
+            //setup the list of groups
             var allListItemGroups = new ObservableCollection<ItemGroup>();
 
+            //loop through all the items (ungroupped)
             foreach (var item in items)
             {
-                //find any existing groups where the group thitle marches the first char of the Item list name
+                //find any existing groups where the group title marches the Date Month of the event
+                //this is a single item of the allListItemGroups List
                 var listItemGroup = allListItemGroups.FirstOrDefault(g => g.Heading == item.GroupDate);
 
                 //if the group does not exist, create one
@@ -69,12 +72,13 @@ namespace APUCalendar.ViewModels
                 }
                 else
                 {
-                    //add the item to the small list
+                    //add the item to the already existing group (but not the list of groups)
                     listItemGroup.Add(item);
                 }
             }
             Debug.WriteLine("[SetupGroup]Finished grouping items");
 
+            //make sure that there are no duplicate items for the list
             var finalGroupedList = allListItemGroups.Except(ItemGrouped);
 
             foreach (var i in finalGroupedList)

@@ -70,7 +70,7 @@ namespace APUCalendar.Models
         public override int GetHashCode() => (EventName, StartDateTime).GetHashCode();
     }
 
-    //this model is used for grouping the events
+    //this model is used for grouping the events by their year and month
     public class ItemGroup : ObservableCollection<Item>
     {
         //long display name for the group, this will be yyyy/MM
