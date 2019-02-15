@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{AE6A9F80-01CA-4F7B-9457-EE2BFED81657}|Default">
   <MonoDevelop.Ide.ItemProperties.APUCalendar.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.pixel_phone" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="APUCalendar.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="APUCalendar/Views/ItemDetailPage.xaml.cs">
     <Files>
-      <File FileName="APUCalendar.Android/Resources/Resource.designer.cs" Line="1" Column="1" />
-      <File FileName="APUCalendar.Android/Resources/AboutResources.txt" Line="1" Column="1" />
       <File FileName="APUCalendar.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="APUCalendar/Services/SyncEvents.cs" Line="1" Column="1" />
+      <File FileName="APUCalendar/Views/ItemDetailPage.xaml" Line="18" Column="15" />
+      <File FileName="APUCalendar/Views/ItemDetailPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
